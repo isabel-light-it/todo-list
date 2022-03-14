@@ -1,0 +1,21 @@
+:root{
+  --black:#1e1e1f;
+  --background:#f2f4f5;
+}
+
+*{
+  margin:0;
+  padding:0;
+ 
+  color:var(--black);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+body{
+  padding:0 24px;
+  background-color: var(--background);
+}
+
+#root{
+  min-height: 100vh;
+ 
+}
